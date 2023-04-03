@@ -46,6 +46,9 @@
 
 /**
 
+ChangeLog
+3.6.10
+- Fix Depreciated Creation of dynamic property Securimage::$gdnoisecolor
  ChangeLog
 3.6.9
  - Compatibility with PHP 8.1
@@ -1018,6 +1021,9 @@ class Securimage
      * @var int
      */
     protected $gdsignaturecolor;
+ 
+    
+    protected $gdnoisecolor;
 
     /**
      * Create a new securimage object, pass options to set in the constructor.
